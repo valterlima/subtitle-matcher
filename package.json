@@ -1,0 +1,16 @@
+{
+  "name": "subtitle-matcher",
+  "version": "0.0.1",
+  "description": "Matches movies filenames with subtitles filesnames",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valter Lima Mesquita (limavalter@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "levenshtein": "^1.0.5",
+    "string-similarity": "^1.0.0"
+  }
+}
