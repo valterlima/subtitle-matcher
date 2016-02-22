@@ -5,6 +5,6 @@ var options = {
   renameSubtitle: true,
   moveFiles: false
 }
-var Matcher = require('./lib/subtitle-matcher.js');
+var Matcher = require('./lib/subtitle-matcher2.js')(options);
 
-Matcher.run(options);
+Matcher.run();
