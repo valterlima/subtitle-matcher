@@ -1,10 +1,10 @@
-var options = {
+const options = {
   moviesDir: 'files/movies/',
   subtitlesDir: 'files/subtitles/',
   outputDir: 'files/output/',
   renameSubtitle: true,
-  moveFiles: false
-}
-var Matcher = require('./lib/subtitle-matcher2.js')(options);
+  moveFiles: false,
+};
+const Matcher = require('./lib/subtitle-matcher.js')(options);
 
 Matcher.run();
